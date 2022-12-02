@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 50px;
+  border-bottom: 1px solid lightgrey;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgb(2, 0, 36) 0%, rgba(107, 121, 9, 0.4096989137) 0%, rgba(0, 212, 255, 0.6842087177) 100%);
+  z-index: 999;
+}
+.navbar .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar .left span {
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #064927;
+  padding: 20px;
+}
+.navbar .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 480px) {
+  .navbar .right {
+    display: none;
+  }
+}
+.navbar .right .user {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 10px;
+}
+@media (max-width: 960px) {
+  .navbar .right .user {
+    display: none;
+  }
+}
+.navbar .right .user span {
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #064927;
+  padding: 20px;
+}
+.navbar .right .user button {
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  background-color: #1c4906;
+  border-radius: 3px;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,23 @@
+.leftBar {
+  flex: 2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgb(2, 0, 36) 0%, rgba(107, 121, 9, 0.4096989137) 0%, rgba(0, 212, 255, 0.6842087177) 100%);
+}
+@media (max-width: 480px) {
+  .leftBar {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  .leftBar {
+    display: none;
+  }
+}
+.leftBar::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=leftBar.css.map */

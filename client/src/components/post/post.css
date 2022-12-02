@@ -1,0 +1,136 @@
+.post {
+  box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+  border-radius: 20px;
+  background-color: rgb(250, 243, 243);
+  color: black;
+}
+
+.container {
+  padding: 20px;
+}
+.container .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.container .user .userInfo {
+  display: flex;
+  gap: 20px;
+}
+.container .user .userInfo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .user .userInfo .details {
+  display: flex;
+  flex-direction: column;
+}
+.container .user .userInfo .details .name {
+  font-weight: 500;
+}
+.container .user .userInfo .details .date {
+  font-size: 12px;
+}
+.container .user button {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  border: none;
+  background-color: #f0544f;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+.container .content {
+  margin: 20px 0px;
+}
+.container .content img {
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.container .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container .info .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.container {
+  padding: 20px;
+}
+.container .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.container .user .userInfo {
+  display: flex;
+  gap: 20px;
+}
+.container .user .userInfo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .user .userInfo .details {
+  display: flex;
+  flex-direction: column;
+}
+.container .user .userInfo .details .name {
+  font-weight: 500;
+}
+.container .user .userInfo .details .date {
+  font-size: 12px;
+}
+.container .user button {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  border: none;
+  background-color: #f0544f;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+.container .link {
+  text-decoration: none;
+}
+.container .content {
+  margin: 20px 0px;
+}
+.container .content img {
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+}
+.container .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container .info .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}/*# sourceMappingURL=post.css.map */

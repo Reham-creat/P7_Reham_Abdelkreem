@@ -1,0 +1,14 @@
+.home {
+  padding: 20px 70px;
+  background-color: rgb(196, 207, 187);
+}
+@media (max-width: 480px) {
+  .home {
+    padding: 10px;
+  }
+}
+@media (max-width: 960px) {
+  .home {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=home.css.map */

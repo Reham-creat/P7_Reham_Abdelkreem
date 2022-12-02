@@ -1,0 +1,30 @@
+
+@import "../../style.scss";
+
+.rightBar{
+    flex:2;
+    position:sticky;
+    top: 70px;
+    height:calc(100vh - 70px);
+    overflow: scroll;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(107,121,9,0.4096989137451855) 0%, rgba(0,212,255,0.6842087176667542) 100%);
+    &::-webkit-scrollbar{
+      display:none;
+
+      @include mobile{
+        display: none;
+      }
+      @include tablet{
+        display: none;
+      }
+  
+      &::-webkit-scrollbar {
+        display: none;
+      }
+  
+
+    }
+   
+  }
+
